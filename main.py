@@ -17,7 +17,6 @@ def enterPassGui(dateTime):
         else:
             labelPass['text'] = 'Incorrect password, try again'
             labelPass['fg'] = 'red'
-            #enterPassword(event)
 
     dateTime = dateTime.split()
     root = Tk()
